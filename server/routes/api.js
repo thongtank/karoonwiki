@@ -39,7 +39,7 @@ router.post('/create', /*cors(),*/ (req, res, next) => {
 
 router.post('/delete', (req, res) => {
   let body = JSON.parse(Object.keys(req.body));
-//   console.log(req.body._id);
+  console.log(req.body._id);
 });
 
 module.exports = router;
