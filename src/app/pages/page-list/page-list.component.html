@@ -1,0 +1,16 @@
+<a href="/create" class="btn btn-success my-2">Create Page</a>
+<table class="table">
+    <tr>
+        <th>IDs</th>
+        <th>Page</th>
+        <th>Content</th>
+        <th colspan="2">Manage</th>
+    </tr>
+    <tr *ngFor="let page of pages">
+        <td>{{page._id}}</td>
+        <td>{{page.title}}</td>
+        <td>{{page.content}}</td>
+        <td><a (click)="willDel(page._id)"><i class="fas fa-edit"></i></a></td>
+        <td><i class="fas fa-trash-alt"></i></td>
+    </tr>
+</table>

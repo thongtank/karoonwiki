@@ -1,0 +1,15 @@
+@import '../../theme/_variable';
+
+.footer {
+    background: $dark-gray1-color;
+    padding: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.brand {
+    color: $white-color;
+    text-decoration: none;
+}
